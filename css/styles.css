@@ -1,6 +1,13 @@
+@import "./sections/header-class.css";
+@import "./sections/section-one.css";
+@import "./sections/section-two.css";
+@import "./sections/section-three.css";
+@import "./sections/section-four.css";
+@import "./sections/footer.css";
+
 *,
-* ::before,
-* ::after {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
