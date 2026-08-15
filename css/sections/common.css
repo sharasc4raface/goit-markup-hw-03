@@ -1,25 +1,28 @@
-.header-class {
+.common {
   display: flex;
-
-  width: 1440px;
-  height: auto;
-  border-bottom: 1px;
-
+  justify-content: space-between;
   align-items: center;
+
+  border-bottom: 1 solid;
+  height: 72px;
+
+  background-color: red;
 }
 
 .site-nav {
   display: flex;
-  width: 1158px;
-  max-width: 1158px;
-  color: #2f4242;
+  align-items: center;
 
+  color: #2f4242;
   padding-right: 15px;
   padding-left: 15px;
 }
 
 .nav-logo {
-  display: flex;
+  width: 115px;
+  height: 24px;
+  gap: 76px;
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -31,6 +34,19 @@
 
 .logo-span {
   color: #2e2f42;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  width: 261px;
+  height: 24px;
+  gap: 40px;
+}
+
+.nav-list a {
+  font-weight: 500;
 }
 
 .nav-item {
@@ -50,6 +66,12 @@
   font-style: normal;
 }
 
+.address-list {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+
 .address-item {
   font-size: 16px;
   line-height: 1.5;
@@ -62,10 +84,6 @@
   color: #404bbf;
 }
 
-.nav-list {
-  list-style-type: none;
-}
-
-.nav-list a {
-  font-weight: 500;
+.address-list {
+  display: flex;
 }

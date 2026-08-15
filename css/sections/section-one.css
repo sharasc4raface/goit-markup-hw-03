@@ -1,9 +1,25 @@
 /* first section */
 .section-one {
   background-color: #2e2f42;
+  height: 600px;
+  width: 1158px;
+  margin: 0 auto;
+}
+
+.section-one .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title-header {
+  display: flex;
+  width: 495px;
+  height: 120px;
+  margin-top: 188px;
+  margin-right: 472px;
+  margin-left: 473px;
+
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -15,6 +31,14 @@
 }
 
 .text-btn {
+  width: 169px;
+  height: 56px;
+
+  margin-top: 48px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 188px;
+
   font-weight: 500;
   letter-spacing: 0.04em;
   color: #ffffff;

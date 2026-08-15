@@ -2,6 +2,9 @@
 
 .footer-warp {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
 }
 
 .footer-warp .logo-span {
@@ -10,4 +13,10 @@
 
 .footer-smalltext {
   color: #f4f4fd;
+  width: 264px;
+  height: 72px;
+}
+
+.footer-warp .container {
+  border: #f4f4fd 1px solid;
 }
