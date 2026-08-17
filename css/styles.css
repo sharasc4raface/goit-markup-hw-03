@@ -1,14 +1,18 @@
-@import "./sections/common.css";
-@import "./sections/section-one.css";
-@import "./sections/section-two.css";
-@import "./sections/section-three.css";
-@import "./sections/section-four.css";
-@import "./sections/footer.css";
+@import url("/css/header.css");
+@import url("./hero.css");
+@import url("./features.css");
+@import url("./team.css");
+@import url("./portfolio.css");
+@import url("./footer.css");
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 h1,
@@ -31,18 +35,21 @@ p {
   margin: 0;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  background-color: #ffffff;
-}
-
 .container {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  overflow: hidden;
+  white-space: nowrap;
 }

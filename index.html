@@ -21,7 +21,7 @@
   </head>
   <body>
     <header class="header-class">
-      <div class="common container">
+      <div class="container">
         <nav class="site-nav">
           <a href="./index.html" class="nav-logo"
             >Web<span class="logo-span">Studio</span></a
@@ -38,6 +38,7 @@
             </li>
           </ul>
         </nav>
+
         <!--емейл ,номер телефону -->
         <address class="address-link">
           <ul class="address-list">
@@ -56,20 +57,18 @@
       </div>
     </header>
     <main>
-      <!--FIRST SECTION-->
+      <!--HERO-->
 
-      <section class="section-one">
-        <div class="container">
-          <h1 class="title-header">Effective Solutions for Your Business</h1>
-          <button type="button" class="text-btn">Order Service</button>
-        </div>
+      <section class="hero">
+        <h1 class="title-hero">Effective Solutions for Your Business</h1>
+        <button type="button" class="text-btn">Order Service</button>
       </section>
 
-      <!--Two section -->
-      <section class="section-two container">
+      <!--features-->
+      <section class="section">
         <div class="container">
-          <h2 class="header-two"></h2>
-          <ul class="benefits-list">
+          <h2 class="sr-only">description</h2>
+          <ul class="description-list">
             <li>
               <h3 class="header-three">Strategy</h3>
               <p class="text-item">
@@ -101,122 +100,128 @@
           </ul>
         </div>
       </section>
-      <!--Three section-->
-      <section id="contacts" class="contacts-section container">
-        <div class="container">
-          <h2 class="header-our-team">Our Team</h2>
-          <ul class="team-squad">
-            <li>
-              <img
-                src="./images/icon-logo/Team-Card-1.jpg"
-                alt="photo1"
-                width="264"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/icon-logo/Team-Card-2.jpg"
-                alt="photo2"
-                width="264"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/icon-logo/Team-Card-3.jpg"
-                alt="photo3"
-                width="264"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/icon-logo/Team-Card-4.jpg"
-                alt="photo4"
-                width="264"
-              />
-            </li>
-          </ul>
-        </div>
+
+      <!--TEAM-->
+      <section id="contacts" class="section contacts-section">
+        <h2 class="team-squad">Our Team</h2>
+
+        <ul>
+          <li class="list-item">
+            <img
+              src="./images/icon-logo/Team-Card-1.jpg"
+              alt="photo1"
+              width="264"
+            />
+            <h3 class="employed">Mark Guerrero</h3>
+            <p class="text-item">Product Designer</p>
+          </li>
+          <li class="list-item">
+            <img
+              src="./images/icon-logo/Team-Card-2.jpg"
+              alt="photo2"
+              width="264"
+            />
+            <h3 class="employed">Tom Ford</h3>
+            <p class="text-item">Frontend Developer</p>
+          </li>
+          <li class="list-item">
+            <img
+              src="./images/icon-logo/Team-Card-3.jpg"
+              alt="photo3"
+              width="264"
+            />
+            <h3 class="employed">Camila Garcia</h3>
+            <p class="text-item">Marketing</p>
+          </li>
+          <li class="list-item">
+            <img
+              src="./images/icon-logo/Team-Card-4.jpg"
+              alt="photo4"
+              width="264"
+            />
+            <h3 class="employed">Daniel Wilson</h3>
+            <p class="text-item">UI Designer</p>
+          </li>
+        </ul>
       </section>
-      <!-- FOUR SECTION-->
-      <section class="section-four container">
-        <div class="block-section">
-          <h2 class="portfolio">Our Portfolio</h2>
-          <ul class="portfolio-card">
-            <li>
-              <img
-                class="portfolio-img"
-                src="./images/our-portfolio/img.jpg"
-                alt="Banking-App"
-                width="360"
-              />
-              <h3 class="header-function">Banking App</h3>
-              <p class="text-function">App</p>
-            </li>
-            <li>
-              <img
-                class="portfolio-img"
-                src="./images/our-portfolio/img2.jpg"
-                alt="Cashless Payment"
-                width="360"
-              />
-              <h3 class="header-function">Cashless Payment</h3>
-              <p class="text-function">Marketing</p>
-            </li>
-            <li>
-              <img
-                class="portfolio-img"
-                src="./images/our-portfolio/img3.jpg"
-                alt="Meditation App"
-                width="360"
-              />
-              <h3 class="header-function">Meditation App</h3>
-              <p class="text-function">App</p>
-            </li>
-            <li>
-              <img
-                class="portfolio-img"
-                src="./images/our-portfolio/img4.jpg"
-                alt="Taxi Service"
-                width="360"
-              />
-              <h3 class="header-function">Taxi Service</h3>
-              <p class="text-function">Marketing</p>
-            </li>
-            <li>
-              <img
-                class="portfolio-img"
-                src="./images/our-portfolio/img5.jpg"
-                alt="Screen Illustrations"
-                width="360"
-              />
-              <h3 class="header-function">Screen Illustrations</h3>
-              <p class="text-function">Design</p>
-            </li>
-            <li>
-              <img
-                class="portfolio-img"
-                src="./images/our-portfolio/img6.jpg"
-                alt="Online Courses"
-                width="360"
-              />
-              <h3 class="header-function">Online Courses</h3>
-              <p class="text-item">Marketing</p>
-            </li>
-          </ul>
-        </div>
+
+      <!--PORTFOLIO-->
+      <section>
+        <h2 class="team-squad">Our Portfolio</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/our-portfolio/img.jpg"
+              alt="Banking-App"
+              width="360"
+            />
+            <h3 class="header-three">Banking App</h3>
+            <p class="text-item">App</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/our-portfolio/img2.jpg"
+              alt="Cashless Payment"
+              width="360"
+            />
+            <h3 class="header-three">Cashless Payment</h3>
+            <p class="text-item">Marketing</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/our-portfolio/img3.jpg"
+              alt="Meditation App"
+              width="360"
+            />
+            <h3 class="header-three">Meditation App</h3>
+            <p class="text-item">App</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/our-portfolio/img4.jpg"
+              alt="Taxi Service"
+              width="360"
+            />
+            <h3 class="header-three">Taxi Service</h3>
+            <p class="text-item">Marketing</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/our-portfolio/img5.jpg"
+              alt="Screen Illustrations"
+              width="360"
+            />
+            <h3 class="header-three">Screen Illustrations</h3>
+            <p class="text-item">Design</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/our-portfolio/img6.jpg"
+              alt="Online Courses"
+              width="360"
+            />
+            <h3 class="header-three">Online Courses</h3>
+            <p class="text-item">Marketing</p>
+          </li>
+        </ul>
       </section>
     </main>
-    <!--FOOTER-->
+
+    <!--footer-->
     <footer class="footer-warp">
-      <div class="container">
-        <a href="./index.html" class="nav-logo"
-          >Web<span class="logo-span">Studio</span></a
-        >
-        <p class="footer-smalltext">
-          Increase the flow of customers and sales for your business with
-          digital marketing &amp; growth solutions.
-        </p>
-      </div>
+      <a href="./index.html" class="nav-logo"
+        >Web<span class="logo-span">Studio</span></a
+      >
+
+      <p class="footer-smalltext">
+        Increase the flow of customers and sales for your business with digital
+        marketing &amp; growth solutions.
+      </p>
     </footer>
   </body>
 </html>
