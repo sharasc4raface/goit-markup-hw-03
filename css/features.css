@@ -13,7 +13,6 @@
   display: flex;
   gap: 24px;
 }
-
 .description-list li {
   width: 264px;
 }
@@ -27,7 +26,7 @@
   color: #2e2f42;
 }
 
-.text-item {
+.description-list .text-item {
   font-size: 16px;
   margin-top: 8px;
 }
