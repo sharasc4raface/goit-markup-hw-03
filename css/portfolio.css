@@ -1,0 +1,22 @@
+.header-portfolio {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.colage-name {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+
+  padding: 32px 16px;
+  gap: 8px;
+
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
