@@ -6,6 +6,9 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+
+  display: block;
+  padding: 24px 0;
 }
 .header-class .container {
   display: flex;
@@ -13,7 +16,6 @@
   align-items: center;
 }
 .site-nav {
-  color: #2f4242;
   display: flex;
   gap: 76px;
 }
@@ -24,9 +26,9 @@
 }
 
 .nav-item {
-  color: #2e2f42;
   display: block;
   padding: 24px 0;
+  color: #2e2f42;
 }
 
 .nav-item:hover,
@@ -34,10 +36,6 @@
   color: #404bbf;
 }
 
-.nav-logo {
-  display: block;
-  padding: 24px 0;
-}
 .address-list {
   display: flex;
   gap: 40px;
